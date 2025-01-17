@@ -25,6 +25,16 @@ public class CalculatorServiceTest {
         Assert.assertEquals(expected,sum);
     }
 
+    @Test
+    public void printStringTest(){
+        String s = CalculatorService.printString();
+
+        String Expected ="Omkar";
+
+        Assert.assertEquals(Expected,s);
+
+    }
+
 }
 
 

@@ -23,6 +23,10 @@ public class CalculatorService {
         return sum;
     }
 
+    public static String printString(){
+         return "Omkar";
+    }
+
 
     public void print(){
         System.out.println("Hello");
