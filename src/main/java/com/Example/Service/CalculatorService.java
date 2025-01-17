@@ -23,4 +23,9 @@ public class CalculatorService {
         return sum;
     }
 
+
+    public void print(){
+        System.out.println("Hello");
+    }
+
 }

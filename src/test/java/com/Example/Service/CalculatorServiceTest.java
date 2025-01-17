@@ -24,6 +24,7 @@ public class CalculatorServiceTest {
 
         Assert.assertEquals(expected,sum);
     }
+
 }
 
 
